@@ -9,7 +9,7 @@ import math
 # ---------------------------
 # CONFIG
 # ---------------------------
-STEP = 0.01  # m: kleiner = glattere Kanten, mehr Punkte
+STEP = 0.05  # m: kleiner = glattere Kanten, mehr Punkte
 COLOR = (8, 243, 8)  # gruen
 MATCH_PERP_TOL = 2.5 * STEP  # Matching-Toleranz fuer Intervall-Tracking
 
@@ -394,3 +394,4 @@ def run(instance, parameters, context, feedback, inputs):
                     del active[sid]
 
     return {}
+
